@@ -1,7 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-    @apply bg-primary
+html, body {
+    font-family: "Inter", sans-serif;
+    background: #0F0E11;
+    color: #fff;
+    width: 100%;
+    overflow-x: hidden
+}
+
+
+/* BANNER */
+.top_category_card {
+    @apply p-5 rounded-xl border border-white h-52 md:h-60 lg:h-80 flex flex-col justify-end border-opacity-50 transition-all hover:scale-[102%] cursor-pointer
+}
+
+.bottom_category_card {
+    @apply p-5 rounded-xl border border-white h-52 md:h-44 lg:h-60 flex flex-col justify-end border-opacity-50 transition-all hover:scale-[102%] cursor-pointer
+}
+
+.top_category_card h2,
+.bottom_category_card h2 {
+    @apply text-xl font-medium
+}
+
+.icon_box {
+    @apply border border-white rounded-full p-1.5 text-white
 }
