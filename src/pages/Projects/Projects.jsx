@@ -8,30 +8,30 @@ const Projects = () => {
            {/* main div for grid */}
            <div>
             {/* upper section */}
-            <section className="grid grid-cols-3 gap-7">
+            <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
                 <div className="col-span-1">
-                   <div className="flex flex-col gap-14">
-                   <img src={smallImgOne} alt="small_image_one" className="h-[237px] w-[337px] rounded-lg hover:scale-[102%] transition-all"/>
-                    <img src={smallImgTwo} alt="small_image_one" className="h-[237px] w-[337px] rounded-lg hover:scale-[102%] transition-all" />
+                   <div className="flex flex-col md:flex-row lg:flex-col gap-7 lg:gap-14">
+                   <img src={smallImgOne} alt="small_image_one" className="h-auto w-auto lg:w-[337px]  hover:scale-[102%] transition-all"/>
+                    <img src={smallImgTwo} alt="small_image_one" className="h-auto w-auto lg:w-[337px]  hover:scale-[102%] transition-all" />
                    </div>
                 </div>
                 <div  className="col-span-2">
-                   <img src={BigImgOne} alt="big_image" className="h-[531px] w-[788px] rounded-lg hover:scale-[102%] transition-all" />
+                   <img src={BigImgOne} alt="big_image" className="h-auto w-[788px]  hover:scale-[102%] transition-all" />
                 </div>
             </section>
             {/* upper section */}
             {/* lower section */}
             <section>
-                <div className="flex justify-between mt-5">
-                <img src={NormalImgOne} alt="small_image_one" className="w-[559px] h-[355px] rounded-lg hover:scale-[102%] transition-all"/>
-                    <img src={NormalImgOne} alt="small_image_one" className="w-[559px] h-[355px] rounded-lg hover:scale-[102%] transition-all" /> 
+                <div className="flex flex-col lg:flex-row gap-5 justify-between mt-5">
+                <img src={NormalImgOne} alt="small_image_one" className="w-auto lg:w-[559px] h-auto  hover:scale-[102%] transition-all"/>
+                    <img src={NormalImgOne} alt="small_image_one" className="w-auto lg:w-[559px] h-auto  hover:scale-[102%] transition-all" /> 
                 </div>
             </section>
            {/* lower section */}
            </div>
           {/* see more btn */}
           <div className="my-8 text-center">
-            <button className="bg-white px-4 py-2 font-medium rounded-lg text-black text-lg">See More</button>
+            <button className="bg-white px-4 py-2 font-medium  text-black text-lg">See More</button>
             </div>
               {/* see more btn */}
            {/* main div for grid */}
