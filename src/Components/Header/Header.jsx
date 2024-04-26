@@ -1,6 +1,6 @@
 import { HiMiniBars3BottomRight, HiOutlineEnvelope, HiOutlineMapPin, HiOutlinePhone } from 'react-icons/hi2';
 import logo from '../../assets/logo.jpg'
-import { FaFacebook, FaPhoneAlt } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Header = () => {

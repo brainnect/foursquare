@@ -3,6 +3,7 @@ import Home from "../pages/Home/Home";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Layout from "../Layout/Layout";
 import Reviews from "../pages/Reviews/Reviews";
+import Products from "../pages/Products/Products";
 
 const Route = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const Route = createBrowserRouter([
       {
         path: '/reviews',
         element: <Reviews></Reviews>
+      },
+      {
+        path: '/products',
+        element: <Products></Products>
       }
     ],
   },
