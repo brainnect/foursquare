@@ -4,6 +4,7 @@ import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Layout from "../Layout/Layout";
 import Reviews from "../pages/Reviews/Reviews";
 import Products from "../pages/Products/Products";
+import CategoryPage from "../pages/CategoryPage/CategoryPage";
 
 const Route = createBrowserRouter([
   {
@@ -16,11 +17,15 @@ const Route = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: '/reviews',
+        path: '/:category',
+        element: <CategoryPage></CategoryPage>
+      },
+      {
+        path: '/:category/reviews',
         element: <Reviews></Reviews>
       },
       {
-        path: '/products',
+        path: '/:category/products',
         element: <Products></Products>
       }
     ],
