@@ -6,7 +6,9 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div className="flex justify-between items-center py-5">
-            <img src={logo} alt="logo" className='w-44 h-auto' />
+            <Link to={'/'}>
+                <img src={logo} alt="logo" className='w-44 h-auto' />
+            </Link>
             <div>
                 <div className="drawer">
                     <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
