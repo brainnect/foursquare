@@ -10,7 +10,7 @@ const Header = () => {
                 <img src={logo} alt="logo" className='w-44 h-auto' />
             </Link>
             <div>
-                <div className="drawer">
+                <div className="drawer drawer-end">
                     <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
                     <div className="drawer-content">
                         <label htmlFor="my-drawer-4" className="drawer-button">
@@ -19,17 +19,17 @@ const Header = () => {
                     </div> 
                     <div className="drawer-side">
                         <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
-                        <ul className="menu p-4 w-44 overflow-scroll min-h-full bg-secondary text-base-content py-8">
-                            <p className='text-description leading-normal text-base'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada nisl nec elit porttitor, at blandit arcu rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
-                            <div href="tel:+8801721636762" className="flex items-center gap-3 mt-6 text-white">
+                        <ul className="menu p-4 w-60 md:w-96 overflow-scroll min-h-full bg-secondary text-base-content py-8">
+                            <p className='text-description leading-normal text-base w-full'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada nisl nec elit porttitor, at blandit arcu rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
+                            <div href="tel:+8801721636762" className="flex items-center gap-3 mt-6 text-white w-full">
                                 <HiOutlinePhone className="text-2xl" />
                                 <span className='text-base'>+880 1721-636762</span>
                             </div>
-                            <div href="tel:+8801721636762" className="flex items-center gap-3 mt-4 text-white">
+                            <div href="tel:+8801721636762" className="flex items-center gap-3 mt-4 text-white w-full">
                                 <HiOutlineEnvelope className="text-2xl" />
                                 <span className='text-base'>info.foursquarebd@gmail.com</span>
                             </div>
-                            <div href="tel:+8801721636762" className="flex items-start gap-3 mt-4 text-white">
+                            <div href="tel:+8801721636762" className="flex items-start gap-3 mt-4 text-white w-full">
                                 <HiOutlineMapPin className="text-[33px]" />
                                 <span className='text-base'>Pukur Para, Shatarkul, Uttar Badda, Dhaka, Bangladesh</span>
                             </div>

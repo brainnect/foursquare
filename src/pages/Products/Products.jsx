@@ -66,7 +66,7 @@ const Products = () => {
     return (
         <div className="pt-5 pb-10">
             <h1 className="font-medium text-3xl">Products</h1>
-            <div className="grid grid-cols-5 gap-5 mt-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5 mt-6">
                 {
                     products?.map((product, idx) => (
                         <div key={idx} className="bg-accent p-1 rounded-xl">
