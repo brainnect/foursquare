@@ -22,11 +22,13 @@ html, body {
     @apply p-5 rounded-xl border border-white h-52 md:h-44 lg:h-60 flex flex-col justify-end border-opacity-50 transition-all hover:scale-[102%] cursor-pointer
 }
 
+
 .top_category_card h2,
 .bottom_category_card h2,
 .category_card h2 {
     @apply text-xl font-medium
 }
+
 
 .icon_box {
     @apply border border-white rounded-full p-1.5 text-white
@@ -38,3 +40,4 @@ html, body {
 .category_card {
     @apply p-5 rounded-xl border border-white h-52 md:h-60 flex flex-col justify-end border-opacity-50 transition-all hover:scale-[102%] cursor-pointer
 }
+
