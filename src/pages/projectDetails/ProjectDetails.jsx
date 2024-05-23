@@ -29,10 +29,10 @@ const ProjectDetails = () => {
     const findProject = projectsImages?.find(proj => proj?.projectCode === project);
 
     return (
-        <div className="grid grid-cols-3 gap-5 mt-5 mb-16">
+        <div className={`grid gap-5 mt-5 mb-16 ${findProject?.images.length > 2 ? 'grid-cols-3' : 'grid-cols-2'}`}>
             {
                 findProject?.images?.map((image, indx) => (
-                    <img className="h-72" key={indx} src={image} alt="" />
+                    <img className={`${findProject?.images.length > 2 ? 'h-72' : 'h-80'} w-full`} key={indx} src={image} alt="" />
                 ))
             }
         </div>

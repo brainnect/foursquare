@@ -16,7 +16,7 @@ const Projects = () => {
     ]
     return (
         <div className="max-w-screen-xl mx-auto mb-20 mt-10">
-            <h2 className="text-2xl mb-5 font-medium">Recent Projects</h2>
+            <h2 className="text-3xl mb-8 font-medium">Recent Projects</h2>
            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {
                     projects?.map((category, idx) => (
