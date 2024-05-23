@@ -9,28 +9,28 @@ const RecentProjects = () => {
       projectName: "Dhanmondi 9/A",
       projectCode: "dhanmondi-9a",
       projectType: "luxurious-residencial",
-      projectImage: ProductCat,
+      projectImage: "https://i.ibb.co/b6zmFQF/jason-dent-w3e-Fhq-Xjk-ZE-unsplash.jpg",
     },
     {
       _id: "2",
       projectName: "Noakhali",
       projectCode: "noakhali",
       projectType: "luxurious-residencial",
-      projectImage: ProductCat,
+      projectImage: "https://i.ibb.co/dkgym65/pexels-pixabay-164558.jpg",
     },
     {
       _id: "3",
       projectName: "Tuhin Sir",
       projectCode: "tuhin-sir",
       projectType: "office-interior",
-      projectImage: ProductCat,
+      projectImage: "https://i.ibb.co/5TvkTvB/pexels-expect-best-79873-323780.jpg",
     },
     {
       _id: "4",
       projectName: "Navana Head Office",
       projectCode: "navana-head-office",
       projectType: "office-interior",
-      projectImage: ProductCat,
+      projectImage: "https://i.ibb.co/4jLRZRJ/2-center-point-hero-min.webp",
     },
   ];
 
