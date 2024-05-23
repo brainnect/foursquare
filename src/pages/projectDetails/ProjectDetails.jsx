@@ -7,12 +7,12 @@ const ProjectDetails = () => {
         {
             _id: 1,
             projectCode: "dhanmondi-9a",
-            images: ["https://i.ibb.co/M90CnTf/newimag.jpg", "https://i.ibb.co/ssZKx4X/jake-colling-ao06rsr8-Cls-unsplash.jpg", "https://i.ibb.co/M90CnTf/newimag.jpg", "https://i.ibb.co/ssZKx4X/jake-colling-ao06rsr8-Cls-unsplash.jpg"]
+            images: ["https://i.ibb.co/M90CnTf/newimag.jpg", "https://i.ibb.co/ssZKx4X/jake-colling-ao06rsr8-Cls-unsplash.jpg"]
         },
         {
             _id: 2,
             projectCode: "noakhali",
-            images: ["https://i.ibb.co/M90CnTf/newimag.jpg", "https://i.ibb.co/ssZKx4X/jake-colling-ao06rsr8-Cls-unsplash.jpg", "https://i.ibb.co/M90CnTf/newimag.jpg", "https://i.ibb.co/ssZKx4X/jake-colling-ao06rsr8-Cls-unsplash.jpg"]
+            images: ["https://i.ibb.co/M90CnTf/newimag.jpg"]
         },
         {
             _id: 3,
@@ -22,7 +22,7 @@ const ProjectDetails = () => {
         {
             _id: 4,
             projectCode: "navana-head-office",
-            images: ["https://i.ibb.co/M90CnTf/newimag.jpg", "https://i.ibb.co/ssZKx4X/jake-colling-ao06rsr8-Cls-unsplash.jpg", "https://i.ibb.co/M90CnTf/newimag.jpg", "https://i.ibb.co/ssZKx4X/jake-colling-ao06rsr8-Cls-unsplash.jpg"]
+            images: ["https://i.ibb.co/M90CnTf/newimag.jpg", "https://i.ibb.co/ssZKx4X/jake-colling-ao06rsr8-Cls-unsplash.jpg", "https://i.ibb.co/M90CnTf/newimag.jpg"]
         },
     ]
 
