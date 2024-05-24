@@ -15,11 +15,11 @@ html, body {
 
 /* BANNER */
 .top_category_card {
-    @apply p-5  h-52 md:h-60 lg:h-80 flex flex-col justify-end border-opacity-50 transition-all hover:scale-[102%] cursor-pointer
+    @apply p-5  h-52 md:h-60 lg:h-80 flex flex-col justify-end border-opacity-50 transition-all hover:scale-[102%] cursor-pointer filter grayscale hover:filter-none  duration-300 ease-in-out
 }
 
 .bottom_category_card {
-    @apply p-5   h-52 md:h-44 lg:h-60 flex flex-col justify-end border-opacity-50 transition-all hover:scale-[102%] cursor-pointer
+    @apply p-5   h-52 md:h-44 lg:h-60 flex flex-col justify-end border-opacity-50 transition-all hover:scale-[102%] cursor-pointer filter grayscale hover:filter-none  duration-300 ease-in-out
 }
 
 
