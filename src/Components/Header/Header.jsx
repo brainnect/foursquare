@@ -45,7 +45,7 @@ const Header = () => {
                                     <FaFacebook className="text-3xl text-[#1877f2] bg-white rounded-full" />
                                 </Link>
                             </div>
-                            <p className='text-description mt-6 text-base'>© Copyright 2024 Foursquare bd All Right Reserved</p>
+                            <p className='text-description mt-6 text-base'>© Copyright 2024 <span className='font-semibold'>Foursquare bd</span> All Right Reserved</p>
                             <p className='text-description mt-3 text-base'>Developed by <Link to='https://brainnect.com' className='underline font-semibold underline-offset-2' target="_blank">Brainnect</Link></p>
                         </ul>
                     </div>
