@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "title": "Acoustic Panels",
+        "img": "https://i.ibb.co/7zxvTnh/2.jpg",
+        "link": "acoustic-panels",
+        "items": [
+            {
+                "id": 1.1,
+                "title": "Acoustic Products",
+                "img": "https://i.ibb.co/GCWH9Ly/accoustic-products.jpg",
+                "link": "acoustic-products"
+            },
+            {
+                "id": 1.2,
+                "title": "Our Complete Projects",
+                "img": "https://i.ibb.co/nr5Q9cC/completed-projects.jpg",
+                "link": "complete-projects"
+            },
+            {
+                "id": 1.3,
+                "title": "Client List",
+                "img": "https://i.ibb.co/Hpw1QGD/client-list.jpg",
+                "link": "client-list"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "CNC Works",
+        "img": "https://i.ibb.co/wKHmj89/1.jpg",
+        "link": "cnc-works",
+        "items": [
+            {
+                "id": 2.1,
+                "title": "Jali Cutting",
+                "img": "https://i.ibb.co/PTrzx3h/jali-cutting.jpg",
+                "link": "jali-cutting"
+            },
+            {
+                "id": 2.2,
+                "title": "Engraving",
+                "img": "https://i.ibb.co/zQyKsHj/engraving.jpg",
+                "link": "engraving"
+            },
+            {
+                "id": 2.3,
+                "title": "3D Milling",
+                "img": "https://i.ibb.co/s6Gsd5h/3d-mlling.jpg",
+                "link": "3d-milling"
+            },
+            {
+                "id": 2.4,
+                "title": "Parametric Design",
+                "img": "https://i.ibb.co/Kh6gDgp/parametric-design.webp",
+                "link": "parametric-design"
+            },
+            {
+                "id": 2.5,
+                "title": "Door 3D Milling",
+                "img": "https://i.ibb.co/92W3mFP/door-3d-milling.webp",
+                "link": "door-3d-milling"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "3D Panels",
+        "img": "https://i.ibb.co/cJWGG0h/4.jpg",
+        "link": "3d-panels"
+    },
+    {
+        "id": 4,
+        "title": "Metal Works",
+        "img": "https://i.ibb.co/0QzYVSV/3.webp",
+        "link": "metal-cnc-work",
+        "items": [
+            {
+                "id": 4.1,
+                "title": "Metal Jali Cutting",
+                "img": "https://i.ibb.co/FXrjGc0/metal-jali-cutting.jpg",
+                "link": "metal-jali-cutting"
+            },
+            {
+                "id": 4.2,
+                "title": "Staircase",
+                "img": "https://i.ibb.co/WcSnLFr/staircase.jpg",
+                "link": "staircase"
+            },
+            {
+                "id": 4.3,
+                "title": "Gate",
+                "img": "https://i.ibb.co/2KPd525/metal-gate.webp",
+                "link": "gate"
+            },
+            {
+                "id": 4.4,
+                "title": "Boundary",
+                "img": "https://i.ibb.co/BjZH020/metal-boundary.webp",
+                "link": "boundary"
+            },
+            {
+                "id": 4.5,
+                "title": "Facade",
+                "img": "https://i.ibb.co/3RVbYLv/facade.jpg",
+                "link": "facade"
+            },
+            {
+                "id": 4.6,
+                "title": "Metal Projects",
+                "img": "https://i.ibb.co/QHMpfpB/metal-projects.jpg",
+                "link": "metal-projects"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Sculpture",
+        "img": "https://i.ibb.co/4sMqxfN/5.jpg",
+        "link": "sculpture",
+        "items": [
+            {
+                "id": 5.1,
+                "title": "Project 1",
+                "img": "https://i.ibb.co/jyw9f1P/sculpture-1.jpg",
+                "link": "project-1"
+            },
+            {
+                "id": 5.2,
+                "title": "Project 2",
+                "img": "https://i.ibb.co/TbWkpRb/sculpture-2.jpg",
+                "link": "project-2"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Design Portfolio",
+        "img": "https://i.ibb.co/pKhYRjC/Tom-Oliver-Payne-Brutalism-Natio.jpg",
+        "link": "design-portfolio"
+    },
+    {
+        "id": 7,
+        "title": "Gift Item",
+        "img": "https://i.ibb.co/5skdXKS/holiday-gift-guide-for-mechanics.jpg",
+        "link": "gift-item",
+        "items": [
+            {
+                "id": 7.1,
+                "title": "Churi Box",
+                "img": "https://i.ibb.co/VwLnYKr/churi-box-1.webp",
+                "link": "churi-box-1"
+            },
+            {
+                "id": 7.2,
+                "title": "Churi Box",
+                "img": "https://i.ibb.co/7QqJzsR/churi-box-2.jpg",
+                "link": "churi-box-2"
+            }
+        ]
+    }
+]
