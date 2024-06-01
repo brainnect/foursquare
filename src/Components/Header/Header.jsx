@@ -36,7 +36,7 @@ const Header = () => {
             <ul className="menu p-6 w-60 md:w-96 min-h-full bg-secondary text-base-content py-8 flex flex-col justify-between">
               <div>
                 <p className="text-description leading-normal text-base w-full break-words">
-                  Welcome to Foursquare CNC & Décor. We are a leading CNC Design
+                  Welcome to Foursquare CNC & Decor. We are a leading CNC Design
                   service provider based in Dhaka; Bangladesh established back
                   in 2015. Foursquare are dedicated for making & producing
                   Acoustic Panels, CNC Jali Cutting (Wood, Board, Metal,
@@ -111,7 +111,7 @@ const Header = () => {
               </div>
               <div>
                 <p className="text-description mt-6 text-base">
-                  © Copyright <CurrentYear /> Foursquare bd All Right Reserved
+                  © Copyright <CurrentYear /> Foursquare CNC & Decor All Right Reserved
                 </p>
                 <p className="text-description mt-3 text-base">
                   Developed & Designed by{" "}
