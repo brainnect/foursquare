@@ -5,8 +5,11 @@ import {
   HiOutlinePhone,
 } from "react-icons/hi2";
 import logo from "../../assets/logo.jpg";
-import { FaFacebook } from "react-icons/fa";
+import facebook from "../../assets/facebook.png"
+import instagram from "../../assets/instagram.png"
+// import twitter from "../../assets/twitter.png"
 import { Link } from "react-router-dom";
+import CurrentYear from "../../utils/currentyear.jsx";
 
 const Header = () => {
   return (
@@ -15,7 +18,7 @@ const Header = () => {
         <img src={logo} alt="logo" className="w-44 h-auto" />
       </Link>
       <div>
-        <div className="drawer drawer-end">
+        <div className="drawer drawer-end z-40">
           <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
           <div className="drawer-content">
             <label htmlFor="my-drawer-4" className="drawer-button">
@@ -30,11 +33,7 @@ const Header = () => {
             ></label>
             <ul className="menu p-4 w-60 md:w-96 overflow-scroll min-h-full bg-secondary text-base-content py-8">
               <p className="text-description leading-normal text-base w-full">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                malesuada nisl nec elit porttitor, at blandit arcu rhoncus.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                posuere cubilia curae; Pellentesque habitant morbi tristique
-                senectus et netus et malesuada fames.
+              Foursquare Cnc and Decor is an Architectural CNC firm were established in 2015.It provides all kinds of Wood and Metal CNC works.
               </p>
               <div
                 href="tel:+8801721636762"
@@ -63,21 +62,22 @@ const Header = () => {
                 Contact us via social media
               </h3>
               <div className="flex items-center gap-4">
-                <Link to="https://facebook.com">
-                  <FaFacebook className="text-3xl text-[#1877f2] bg-white rounded-full" />
+                <Link to="https://facebook.com/foursquareinterior"  target="_blank">
+                  <img src={facebook} alt="foursquare-facebook" />
                 </Link>
-                <Link to="https://facebook.com">
-                  <FaFacebook className="text-3xl text-[#1877f2] bg-white rounded-full" />
+                <Link to="https://instagram.com/foursquare_luxurious_interior_"  target="_blank">
+                <img src={instagram} alt="foursquare-instagram" />
                 </Link>
-                <Link to="https://facebook.com">
-                  <FaFacebook className="text-3xl text-[#1877f2] bg-white rounded-full" />
-                </Link>
+                {/* <Link to="https://facebook.com">
+                <img src={twitter} alt="foursquare-twitter" />
+                </Link> */}
               </div>
+              <div>
               <p className="text-description mt-6 text-base">
-                © Copyright 2024 Foursquare bd All Right Reserved
+                © Copyright <CurrentYear/> Foursquare bd All Right Reserved
               </p>
               <p className="text-description mt-3 text-base">
-                Developed by{" "}
+                Developed & Designed by{" "}
                 <Link
                   to="https://brainnect.com"
                   className="underline font-semibold underline-offset-2"
@@ -86,6 +86,7 @@ const Header = () => {
                   Brainnect
                 </Link>
               </p>
+              </div>
             </ul>
           </div>
         </div>
