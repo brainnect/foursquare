@@ -39,3 +39,18 @@ html, body {
 .category_card {
   @apply p-5 border-white h-52 md:h-60 flex flex-col justify-end border-opacity-50 transition-all hover:scale-[102%] cursor-pointer;
 }
+
+/* for map */
+
+.responsive_map{
+  @apply overflow-hidden h-0 relative pb-[60%] my-5
+}
+
+.responsive_map iframe {
+ border: 0;
+ height: 100%;
+ width: 100%;
+ left: 0;
+ top: 0;
+ position: absolute;
+}
