@@ -3,19 +3,18 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   const projects = [
     {
-      title: "Luxurious Residencial",
-      img: "https://i.ibb.co/ssZKx4X/jake-colling-ao06rsr8-Cls-unsplash.jpg",
+      title: "Luxurious Residential",
+      img: "https://i.ibb.co/X7yZ33N/residential.jpg",
       link: "/recent-projects/luxurious-residencial",
     },
     {
       title: "Office Interior",
-      img: "https://i.ibb.co/M90CnTf/newimag.jpg",
+      img: "https://i.ibb.co/RHrMDvH/office.jpg",
       link: "/recent-projects/office-interior",
     },
   ];
   return (
     <div className="max-w-screen-xl mx-auto mb-20 mt-10">
-      {/* <h2 className="text-3xl mb-8 font-medium">Recent Projects</h2> */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projects
           ?.map((category, idx) => (
