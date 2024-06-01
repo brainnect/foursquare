@@ -98,6 +98,16 @@ const Header = () => {
                     <img src={youtube} alt="foursquare-bd-youtube" />
                   </Link>
                 </div>
+                <div className="responsive_map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.9068743892794!2d90.4479416!3d23.786330299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c78af65dc51f%3A0xe063832e6c616fc5!2sFoursquare%20CNC%20%26%20Interior!5e0!3m2!1sen!2sbd!4v1717247343867!5m2!1sen!2sbd"
+                    width="600"
+                    height="450"
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
               </div>
               <div>
                 <p className="text-description mt-6 text-base">
